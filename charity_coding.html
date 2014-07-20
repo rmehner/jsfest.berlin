@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charity Coding – JSFest.Berlin - September 2014</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <style type="text/css" media="screen">
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      font-size: 10px;
+    }
+    body {
+      line-height: 1.5;
+      min-width: 320px;
+      font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      color: #0A2824;
+    }
+    header, main, footer {
+      padding: 3rem 1rem;
+    }
+    footer {
+      background-color: #EA3556;
+      color: #FFF;
+      text-align: center;
+    }
+    main {
+      background-color: #FBFBFB;
+    }
+    .site-header {
+      text-align: center;
+      border-bottom: 1px solid #F3EDEE;
+    }
+    .site-header-desc {
+      color: #82928F;
+    }
+    a, a:visited {
+      color: #EA3556;
+      text-decoration: none;
+    }
+    h1, h2, h3, h4 {
+      font-weight: 400;
+    }
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      margin-bottom: 1rem;
+    }
+    h1 span {
+      display: block;
+      font-size: .5em;
+    }
+    h3 {
+      font-size: 2.1rem;
+      line-height: 1.1;
+    }
+    article img {
+      border: 6px solid white;
+      box-shadow: rgba(194, 194, 194, 0.39) 2px 2px 2px
+    }
+    ul {
+      list-style-type: circle;
+      margin-left: 2em;
+    }
+    ul li {
+      margin-bottom: .5em;
+    }
+    .details {
+      font-size: 1rem;
+      margin-bottom: .7rem;
+      color: #82928F;
+    }
+    article {
+      clear: both;
+      font-size: 1.2rem;
+      margin-bottom: 1.4rem;
+      overflow: hidden;
+    }
+    article div {
+      width: 24rem;
+      float: left;
+      padding-bottom: 1.4rem;
+      border-bottom: 1px solid #FFF;
+    }
+    time {
+      display: block;
+      text-align: center;
+      float: left;
+      font-size: 16px;
+      line-height: 1.2;
+      width: 49px;
+      height: 49px;
+      margin-right: 1rem;
+      padding-top: 7px;
+      background-color: #EA3556;
+      color: #FFF;
+    }
+    .button span,
+    time span {
+      display: block;
+      font-size: .9rem;
+    }
+    .button, .button:visited {
+      float: right;
+      width: 100%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      display: inline-block;
+      border: 3px solid #EA3556;
+      color: #EA3556;
+      padding: .5rem 1rem;
+      text-align: center;
+      line-height: 1.2;
+      text-decoration: none;
+      font-weight: 400;
+    }
+    .button:hover, .button:focus, .button:active {
+      background-color: #EA3556;
+      color: #FFF;
+    }
+    .button-disabled, .button-disabled:visited, .button-disabled:hover, .button-disabled:focus, .button-disabled:active {
+      background-color: transparent;
+      border-color: #F3EDEE;
+      color: #F3EDEE;
+      cursor: default;
+    }
+    .button span {
+      font-size: 10px;
+    }
+    .button span {
+      color: #82928F;
+    }
+    .coral, .coral:visited {
+      border: 3px solid #F3EDEE;
+      color: #BBB;
+    }
+    .button-minor, .button-minor:visited {
+      display: block;
+      color: #82928F;
+    }
+    .button-minor:hover, .button-minor:focus, .butotn-minor:active {
+      color: #EA3556;
+    }
+
+    img.logo {
+      width: 200px;
+      border: none;
+      box-shadow: none;
+      float: left;
+      margin-right: 1em
+    }
+
+    @media screen and (min-width: 400px) {
+      html {
+        font-size: 12px;
+      }
+      article div {
+        width: 26.2rem;
+      }
+      h3, .details {
+        display: inline-block;
+      }
+    }
+
+    @media screen and (min-width: 640px) {
+      html {
+        font-size: 14px;
+      }
+      header, main, footer {
+        padding: 3rem calc(50% - 22.4rem);
+      }
+      article div {
+        width: 40rem;
+        position: relative;
+      }
+      .button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+        margin: 0;
+      }
+      .button-minor {
+        display: inline-block;
+        padding-right: 1rem;
+      }
+      h3 {
+        line-height: 1.4;
+      }
+      .details {
+        margin-bottom: 1.4rem;
+      }
+    }
+
+
+
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>
+        JSFest Charity Coding
+        <span>September the 10th, 2014</span>
+      </h1>
+      <p class="site-header-desc">Hacking on Javascript projects for a good cause.</p>
+    </header>
+    <main>
+      <article>
+        <h1>Let's hack on stuff and do some good!</h1>
+        <img src="images/charity-coding.png" class="logo" />
+        <p>
+          For one day, we donate our time and skills to charities, non-profits and any other project for a better world that is in need of some "javascript love".
+        </p>
+        <br>
+        <p>Team up with other people, contribute to some awesome projects and learn new stuff – all while leveling up your karma.</p>
+        </p>
+        <br>
+        <p>
+          <strong>Wednesday, September the 10th, 10am to 8pm</strong><br>
+          at bitcrowd, Sanderstraße 28, 12047 Berlin<br>
+          <a href="http://lanyrd.com/2014/jsfest-charity-coding/">Lanyrd Event Page</a>
+        </p>
+        <br>
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="http://wheelmap.org//"><b>WheelMap</b></a> is an award-winning online map to search, find and mark wheelchair-accessible places. It is available in 21 languages (including Klingon!) and lists more than half a million places.
+          </li>
+          <li>How do you say "beer" in German Sign Language?<br>
+            <a href="http://seemespeak.org/"><b>SeeMeSpeak</b></a> is a sign-language dictionary with almost 800 entries and a RailsRumble 2013 winner.</li>
+          <li><i>&hellip; – more projects to be announced soon – &hellip; </i></b>
+          </li>
+          <li>Have an idea to make people's lives easier? Looking for help with coding?<br>
+            <b>Bring your project to Charity Coding!</b>
+          </li>
+        </ul>
+        <br>
+        <h2>How to get there</h2>
+        <p>JSFest Charity Coding takes place at the <a href="http://bitcrowd.net/">bitcrowd office</a> in Sanderstraße 28, Berlin. The easiest way to get there is to <a href="https://www.google.com/maps/dir//Sch%C3%B6nleinstra%C3%9Fe,+10967+Berlin,+Germany/@52.4913599,13.4117744,15z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x47a84fc9916bacd9:0xf767ad1d1c1750bb!2m2!1d13.420379!2d52.4913471!3e3">take the U8 to Schönleinstraße</a>.</p>
+        <br>
+        <p>The offices are in the back house.  Enter through the big gate, then take the stairs across the yard with the sign "Aufgang III".</p>
+        <br>
+        <p>
+          <a href="https://www.google.com/maps/place/BitCrowd+GmbH/@52.49237,13.423832,17z/data=!3m1!4b1!4m2!3m1!1s0x47a84fac97094a8f:0x84c7ec5f6fb1f73">
+            <img src="http://maps.googleapis.com/maps/api/staticmap?center=Sanderstr28,Berlin&zoom=13&size=500x360&markers=color:blue%7Clabel:b%7CSanderstr28,Berlin&sensor=false" />
+          </a>
+        </p>
+        <br>
+        <h2>Contact the Organizers</h2>
+        <p>If you have a project that you'd like to bring to Charity Coding or if you want to participate in the organisation, drop us a line!</p>
+        <br>
+        <p>Bodo – <a href="mailto:bodo@bitcrowd.net">bodo@bitcrowd.net</a></p>
+        <p>Rin &nbsp;&nbsp;&nbsp;  – <a href="mailto:rin@bitcrowd.net">rin@bitcrowd.net</a></p>
+      </article>
+    </main>
+    <footer>
+      <p>
+        From the community, for the community <3
+      </p>
+    </footer>
+  </body>
+</html>

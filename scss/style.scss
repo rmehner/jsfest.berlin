@@ -1,5 +1,6 @@
 @import "_normalize";
 @import "_vars";
+@import "_mixins";
 @import "_base";
 @import "_list";
 
@@ -15,6 +16,9 @@ html {
 .page_header{
 	position: relative;
 	background: linear-gradient(0deg, $contrast-color 2px, $main-color 2px, $main-color 100%);
+	@media screen and (min-width: $max-page-width){
+		background: linear-gradient(0deg, $contrast-color 11px, $main-color 11px, $main-color 100%);
+	}
 	.site-title{
 		display: block;
 		margin: 0 0 -15%;
@@ -34,5 +38,13 @@ html {
 		width: 100%;
 		height: 100%;
 		fill: $contrast-color;
+	}
+}
+
+.page_footer{
+	background-color: $main-color;
+	color: $contrast-color;
+	.heart{
+		@include hearticon(8px);
 	}
 }

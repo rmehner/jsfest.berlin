@@ -1,7 +1,7 @@
 # Site settings
 title: jsfest.berlin
 email: mail@kevinlorenz.com
-description: "A simple repository to test the Jekkyl functionalities"
+description: "jsfest.berlin"
 baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: verpixelt

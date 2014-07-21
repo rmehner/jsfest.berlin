@@ -3,10 +3,10 @@
   <channel>
     <title>jsfest.berlin</title>
     <description>A simple repository to test the Jekkyl functionalities</description>
-    <link>http://yourdomain.com/jekyll-test/</link>
-    <atom:link href="http://yourdomain.com/jekyll-test/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Jul 2014 20:38:20 +0200</pubDate>
-    <lastBuildDate>Mon, 21 Jul 2014 20:38:20 +0200</lastBuildDate>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 21 Jul 2014 21:11:40 +0200</pubDate>
+    <lastBuildDate>Mon, 21 Jul 2014 21:11:40 +0200</lastBuildDate>
     <generator>Jekyll v2.1.1</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Wed, 10 Sep 2014 16:10:42 +0200</pubDate>
-        <link>http://yourdomain.com/jekyll-test/2014/09/10/decentralizejs/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll-test/2014/09/10/decentralizejs/</guid>
+        <link>http://yourdomain.com/2014/09/10/decentralizejs/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/09/10/decentralizejs/</guid>
         
         
       </item>
@@ -37,8 +37,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Tue, 09 Sep 2014 16:10:42 +0200</pubDate>
-        <link>http://yourdomain.com/jekyll-test/2014/09/09/upfront/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll-test/2014/09/09/upfront/</guid>
+        <link>http://yourdomain.com/2014/09/09/upfront/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/09/09/upfront/</guid>
         
         
       </item>

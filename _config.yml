@@ -1,0 +1,12 @@
+# Site settings
+title: jsfest.berlin
+email: mail@kevinlorenz.com
+description: "A simple repository to test the Jekkyl functionalities"
+baseurl: "/jekyll-test"
+url: "http://yourdomain.com"
+twitter_username: verpixelt
+github_username:  verpixelt
+
+# Build settings
+markdown: kramdown
+permalink: pretty

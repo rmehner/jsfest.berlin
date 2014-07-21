@@ -12,7 +12,16 @@ body {
 
 .wrap {
   width: 100%;
-  max-width: 33em;
+  max-width: $max-page-width;
   margin: 0 auto;
-  padding: 0 .5rem;
+  padding: 0 0.714rem;
+}
+
+.page_content{
+	padding: 2rem 0;
+	a{
+		color: $main-color;
+		border-bottom: 1px dashed currentColor;
+		text-decoration: none;
+	}
 }

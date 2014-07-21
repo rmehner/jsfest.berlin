@@ -4,6 +4,7 @@ title:  "Up.front"
 date:   2014-09-09 14:10:42
 venue: Co.up Coworkingspace
 ticket: Ticket needed
+time: "5:30am"
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

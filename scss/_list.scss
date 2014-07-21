@@ -8,12 +8,9 @@
 .eventlist-element {
   margin-bottom: 1.5rem;
   list-style: none;
-  > a {
-    display: block;
-  }
 }
 
-/*.eventlist-element {
+.eventlist-element__link {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row;
@@ -21,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
 }
-*/
+
 
 .eventlist-element__date {
   text-align: right;

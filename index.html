@@ -6,13 +6,13 @@ title: home
 <ol class="eventlist">
   {% for post in site.posts reversed %}
     <li class="eventlist-element">
-        <a href="">
+        <a class="eventlist-element__link" href="{{ post.url | prepend: site.baseurl }}">
         <time class="eventlist-element__date">
           <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
           <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
         </time>
         <div class="eventlist-elemnt-infowrap">
-          <a class="eventlist-element__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="eventlist-element__title">{{ post.title }}</span>
           <span class="eventlist-element__venue">{{ post.venue }}</span><span class="eventlist-element__time">{{ post.time }}</span><span class="eventlist-element__ticket">{{ post.ticket }}</span>
         </div>
         </a>

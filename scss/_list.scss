@@ -1,17 +1,56 @@
+
+
 .eventlist {
   padding: 0;
   margin: 0;
 }
 
 .eventlist-element {
+  margin-bottom: 1.5rem;
   list-style: none;
+  > a {
+    display: block;
+  }
+}
+
+/*.eventlist-element {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+*/
+
+.eventlist-element__date {
+  text-align: right;
+  border-right: 1px solid $font-color;
+  padding-right: 1rem;
+  min-width: 3em;
+}
+
+.eventlist-element__date-day {
+  display: block;
+  font-size: 1.4em;
+}
+
+.eventlist-elemnt-infowrap {
+  margin-right: auto;
+  padding-left: 1rem;
 }
 
 .eventlist-element__title {
-
+  display: block;
+  font-size: 1.4em;
 }
 
-.eventlist-element__date-number,
-.eventlist-element__date-day {
-  display: block;
+.eventlist-element__time,
+.eventlist-element__ticket {
+  position: relative;
+  &:before {
+    content: "|";
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
 }

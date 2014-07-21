@@ -18,6 +18,9 @@ html {
 	@media screen and (min-width: $max-page-width){
 		background: linear-gradient(0deg, $contrast-color 11px, $main-color 11px, $main-color 100%);
 	}
+	.wrap{
+		padding: 0;
+	}
 	.site-title{
 		display: block;
 		margin: 0 0 -15%;

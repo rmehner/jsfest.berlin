@@ -1,9 +1,25 @@
-@import "_base.scss";
+@import "_normalize";
+@import "_vars";
+@import "_base";
 
 html {
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.page_header{
+	position: relative;
+	background-color: $main-color;
+	.title{
+		display: block;
+		font-size: 3.714rem;
+		font-weight: 700;
+	}
+	.skyline{
+		fill: $contrast-color;
+	}
 }

@@ -1,11 +1,11 @@
 # Site settings
 title: jsfest.berlin
-email: mail@kevinlorenz.com
+email: 
 description: "jsfest.berlin"
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: verpixelt
-github_username:  verpixelt
+twitter_username: 
+github_username: 
 
 # Build settings
 markdown: kramdown

@@ -3,13 +3,13 @@ layout: default
 title: home
 ---
 
-  <ol class="posts">
-    {% for post in site.posts reversed %}
-      <li>
-        <span class="post__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="post__venue">{{ post.venue }}</span><span class="post__time">{{ post.time }}</span><span class="post__ticket">{{ post.ticket }}</span>
-      </li>
-    {% endfor %}
-  </ol>
+<ol class="eventlist">
+  {% for post in site.posts reversed %}
+    <li class="eventlist-element">
+      <span class="eventlist-element__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="eventlist-element__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="eventlist-element__venue">{{ post.venue }}</span><span class="eventlist-element__time">{{ post.time }}</span><span class="eventlist-element__ticket">{{ post.ticket }}</span>
+    </li>
+  {% endfor %}
+</ol>
 <!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

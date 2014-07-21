@@ -1,7 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 html {
-  box-sizing: border-box;
-}
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 400; }
+
+body {
+  font-size: 1.25em;
+  /*20px*/ }
+
+html {
+  box-sizing: border-box; }
 
 *, *:before, *:after {
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
+
+/*# sourceMappingURL=style.css.map */

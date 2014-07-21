@@ -8,6 +8,11 @@
 .eventlist-element {
   margin-bottom: 1.5rem;
   list-style: none;
+  .eventlist-element__link {
+    text-decoration: none;
+    border-bottom: none;
+    color: $font-color;
+  }
 }
 
 .eventlist-element__link {
@@ -40,6 +45,7 @@
 .eventlist-element__title {
   display: block;
   font-size: 1.4em;
+  color: $main-color;
 }
 
 .eventlist-element__time,

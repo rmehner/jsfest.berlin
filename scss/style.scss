@@ -14,13 +14,25 @@ html {
 
 .page_header{
 	position: relative;
-	background-color: $main-color;
+	background: linear-gradient(0deg, $contrast-color 2px, $main-color 2px, $main-color 100%);
+	.site-title{
+		display: block;
+		margin: 0 0 -15%;
+		color: $contrast-color;
+		text-decoration: none;
+		text-align: center;
+		overflow: hidden;
+	}
 	.title{
 		display: block;
+		margin-top: 5%;
 		font-size: 3.714rem;
 		font-weight: 700;
 	}
 	.skyline{
+		display: block;
+		width: 100%;
+		height: 100%;
 		fill: $contrast-color;
 	}
 }

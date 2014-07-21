@@ -2,7 +2,7 @@
 title: jsfest.berlin
 email: mail@kevinlorenz.com
 description: "A simple repository to test the Jekkyl functionalities"
-baseurl: "/jekyll-test"
+baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: verpixelt
 github_username:  verpixelt

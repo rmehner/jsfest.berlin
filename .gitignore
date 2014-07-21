@@ -1,4 +1,4 @@
-_sites
+_sites/*
 .DS_Store
 .sass-cache
 *.map

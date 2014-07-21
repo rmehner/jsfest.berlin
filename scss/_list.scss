@@ -47,13 +47,16 @@
   font-size: 1.4em;
   color: $main-color;
 }
-
-.eventlist-element__time,
-.eventlist-element__ticket {
+.eventlist-element__venue,
+.eventlist-element__time {
   position: relative;
-  &:before {
+  &:after {
     content: "|";
     margin-left: .5rem;
     margin-right: .5rem;
   }
+}
+
+.eventlist-element__venue {
+  display: inline-block;
 }

@@ -29,6 +29,7 @@
   text-align: right;
   padding-right: 1rem;
   min-width: 2.5em;
+  align-self: flex-start;
 }
 
 .eventlist-element__date-day {
@@ -45,6 +46,7 @@
 .eventlist-element__title {
   display: block;
   font-size: 1.4em;
+  margin-bottom: .3rem;
   color: $main-color;
 }
 .eventlist-element__venue,

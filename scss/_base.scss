@@ -7,7 +7,24 @@ html {
 
 body {
   font-size: 1em;
+  line-height: 1.333;
   color: $font-color;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page_header {
+  flex: 0;
+}
+
+.page_content {
+  flex: 1;
+}
+
+.page_footer {
+  flex: 0;
 }
 
 .wrap {
@@ -19,7 +36,7 @@ body {
 
 .page_content{
 	padding: 2rem 0;
-	a{
+	a {
 		color: $main-color;
 		border-bottom: 1px dashed currentColor;
 		text-decoration: none;

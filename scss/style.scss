@@ -12,7 +12,7 @@ html {
   box-sizing: inherit;
 }
 
-.page_header{
+.page_header {
 	position: relative;
 	background: linear-gradient(0deg, $contrast-color 2px, $main-color 2px, $main-color 100%);
 	@media screen and (min-width: $max-page-width){
@@ -29,13 +29,13 @@ html {
 		text-align: center;
 		overflow: hidden;
 	}
-	.title{
+	.title {
 		display: block;
 		margin-top: 5%;
-		font-size: 3.25em;
+		font-size: 3em;
 		font-weight: 700;
 	}
-	.skyline{
+	.skyline {
 		display: block;
 		width: 100%;
 		height: 100%;
@@ -43,10 +43,15 @@ html {
 	}
 }
 
-.page_footer{
+.page_footer {
 	background-color: $main-color;
 	color: $contrast-color;
-	.heart{
+	.heart {
 		@include hearticon(8px);
 	}
+}
+
+.heart-wrap {
+	display: block;
+	text-align: center;
 }

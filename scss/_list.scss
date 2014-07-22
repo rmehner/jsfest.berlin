@@ -8,6 +8,11 @@
 .eventlist-element {
   margin-bottom: 1.5rem;
   list-style: none;
+  .eventlist-element__link {
+    text-decoration: none;
+    border-bottom: none;
+    color: $font-color;
+  }
 }
 
 .eventlist-element__link {
@@ -22,9 +27,9 @@
 
 .eventlist-element__date {
   text-align: right;
-  border-right: 1px solid $font-color;
   padding-right: 1rem;
-  min-width: 3em;
+  min-width: 2.5em;
+  align-self: flex-start;
 }
 
 .eventlist-element__date-day {
@@ -35,19 +40,25 @@
 .eventlist-elemnt-infowrap {
   margin-right: auto;
   padding-left: 1rem;
+  border-left: 1px solid $font-color;
 }
 
 .eventlist-element__title {
   display: block;
   font-size: 1.4em;
+  margin-bottom: .3rem;
+  color: $main-color;
 }
-
-.eventlist-element__time,
-.eventlist-element__ticket {
+.eventlist-element__venue,
+.eventlist-element__time {
   position: relative;
-  &:before {
+  &:after {
     content: "|";
     margin-left: .5rem;
     margin-right: .5rem;
   }
+}
+
+.eventlist-element__venue {
+  display: inline-block;
 }

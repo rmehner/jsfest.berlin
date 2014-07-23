@@ -52,6 +52,7 @@
   margin-right: auto;
   padding-left: 1rem;
   border-left: 1px solid $font-color;
+  max-width: 21.153846154em;
 }
 
 .eventlist-element__title {
@@ -59,7 +60,6 @@
   font-size: 1.4em;
   margin-bottom: .3rem;
   color: $main-color;
-  max-width: 38.125em;
 }
 .eventlist-element__venue,
 .eventlist-element__time {

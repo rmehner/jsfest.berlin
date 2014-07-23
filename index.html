@@ -6,12 +6,10 @@ title: jsfest.berlin
 <ol class="eventlist">
   {% for post in site.posts reversed %}
     <li class="eventlist-element">
-      {% if post.venue and post.ticket %}
-        <a class="eventlist-element__link" href="{{ post.url | prepend: site.baseurl }}">
-      {% elsif post.href %}
+      {% if post.href %}
         <a class="eventlist-element__link" href="{{ post.href }}">
       {% else %}
-        <a class="eventlist-element__link" href="{{ post.url }}">          
+        <a class="eventlist-element__link" href="{{ post.url | prepend: site.baseurl }}">
       {% endif %}
           <time class="eventlist-element__date">
             <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>

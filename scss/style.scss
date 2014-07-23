@@ -15,25 +15,34 @@ html {
 .page_header {
 	position: relative;
 	background: linear-gradient(0deg, $contrast-color 2px, $main-color 2px, $main-color 100%);
-	@media screen and (min-width: $max-page-width){
-		background: linear-gradient(0deg, $contrast-color 11px, $main-color 11px, $main-color 100%);
-	}
-	.wrap{
-		padding: 0;
-	}
-	.site-title{
+	//@media screen and (min-width: $max-page-width){
+	//	background: linear-gradient(0deg, $contrast-color 11px, $main-color 11px, $main-color 100%);
+	//}
+	.site-title {
 		display: block;
 		margin: 0 0 -15%;
 		color: $contrast-color;
 		text-decoration: none;
 		text-align: center;
 		overflow: hidden;
+		@media screen and (min-width: 29.894736842em) {
+			margin: 0 0 -11%;
+		}
+		@media screen and (min-width: 36.842105263em) {
+			margin: 0 0 -9%;
+		}
 	}
 	.title {
 		display: block;
 		margin-top: 5%;
-		font-size: 3em;
+		font-size: 2.5em;
 		font-weight: 700;
+		@media screen and (min-width: 21.052631579em) {
+		  font-size: 2.3em;
+		}
+		@media screen and (min-width: 36.842105263em) {
+			font-size: 2.7em;
+		}
 	}
 	.skyline {
 		display: block;
@@ -54,4 +63,5 @@ html {
 .heart-wrap {
 	display: block;
 	text-align: center;
+	overflow: hidden;
 }

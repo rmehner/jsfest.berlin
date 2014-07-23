@@ -6,25 +6,29 @@ html {
 }
 
 body {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.333;
   color: $font-color;
-
+  -webkit-font-smoothing: antialiased;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
   min-height: 100vh;
-}
-
-.page_header {
-  flex: 0;
-}
-
-.page_content {
-  flex: 1;
+  @media screen and (min-width: 21.052631579em) {
+    font-size: 1.4em;
+  }
+  @media screen and (min-width: 29.894736842em) {
+    font-size: 1.6em;
+  }
 }
 
 .page_footer {
-  flex: 0;
+  font-size: .842105263em;
+  padding: .4rem 0 .3rem 0;
+  @media screen and (min-width: 21.052631579em) {
+   padding: .6rem 0 .5rem 0;
+  }
 }
 
 .wrap {
@@ -35,7 +39,9 @@ body {
 }
 
 .page_content{
-	padding: 2rem 0;
+  -webkit-flex: 1;
+  flex: 1;
+	padding: 3rem 0;
 	a {
 		color: $main-color;
 		border-bottom: 1px dashed currentColor;

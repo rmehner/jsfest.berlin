@@ -80,8 +80,8 @@
   @media screen and (min-width: 42.5em) {
     display: block;
     border-radius: 50%;
-    width: .46em;
-    height: .46em;
+    width: 12px;
+    height: 12px;
     background-color: #919091;
     justify-self: flex-end;
     margin-left: auto;
@@ -94,8 +94,8 @@
     &:before,
     &:after {
       content: "";
-      width: .46em;
-      height: .46em;
+      width: 12px;
+      height: 12px;
       background-color: #919091;
       display: block;
       border-radius: 50%;

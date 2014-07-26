@@ -5,4 +5,5 @@ date:   2014-09-12
 venue: "Soundcloud Office"
 ticket: "Ticket: RSVP available soon"
 time: "Time: TBA"
+href: "/"
 ---

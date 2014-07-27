@@ -11,7 +11,7 @@ title: jsfest.berlin
       {% else %}
         <a class="eventlist-element__link" href="{{ post.url | prepend: site.baseurl }}">
       {% endif %}
-          <time datetime="{{ post.date | date: "%Y-%m-%d" }}"class="eventlist-element__date">
+          <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="eventlist-element__date">
             <span class="eventlist-element__date-day">{{ post.date | date: "%d" }}</span>
             <span class="eventlist-element__date-day-name">{{ post.date | date: "%a" }}</span>
           </time>

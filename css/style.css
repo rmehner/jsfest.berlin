@@ -418,6 +418,22 @@ body {
     border-bottom: none;
     color: #575756; }
 
+.eventlist-element--is-hidden {
+  position: relative; }
+  .eventlist-element--is-hidden:before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 2.5rem;
+    right: -1px;
+    border-right: 1px dashed #575756;
+    position: absolute;
+    top: -2.5rem; }
+
+.eventlist-element--is-hidden .eventlist-element__date-day,
+.eventlist-element--is-hidden .eventlist-element__date-day-name {
+  display: none; }
+
 .eventlist-element__link {
   display: -webkit-flex;
   display: flex;

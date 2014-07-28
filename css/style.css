@@ -518,7 +518,7 @@ html {
   background: linear-gradient(0deg, white 2px, #e6332a 2px, #e6332a 100%); }
   .page_header .site-title {
     display: block;
-    margin: 0 0 -15%;
+    margin: 0 0 1em;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -584,4 +584,14 @@ html {
   text-align: center;
   overflow: hidden; }
 
-/*# sourceMappingURL=style.css.map */
+.intro {
+  color: #FFF;
+  text-align: center;
+  margin: 0 auto -12%;
+  max-width: 360px; }
+
+.intro a {
+  color: inherit; }
+
+.intro a:hover {
+  opacity: .75; }

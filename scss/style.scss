@@ -20,17 +20,11 @@ html {
 	//}
 	.site-title {
 		display: block;
-		margin: 0 0 -15%;
+		margin: 0 0 1em;
 		color: $contrast-color;
 		text-decoration: none;
 		text-align: center;
 		overflow: hidden;
-		@media screen and (min-width: 29.894736842em) {
-			margin: 0 0 -11%;
-		}
-		@media screen and (min-width: 36.842105263em) {
-			margin: 0 0 -9%;
-		}
 	}
 	.title {
 		display: block;
@@ -50,6 +44,13 @@ html {
 		height: 100%;
 		fill: $contrast-color;
 	}
+}
+
+.intro {
+	max-width: 14em;
+	color: #FFF;
+	text-align: center;
+	margin: 0 auto -12%;
 }
 
 .page_footer {

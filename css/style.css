@@ -360,7 +360,7 @@ html {
   font-weight: 400; }
 
 body {
-  font-size: 1.2em;
+  font-size: 10.2em;
   line-height: 1.333;
   color: #575756;
   -webkit-font-smoothing: antialiased;
@@ -417,22 +417,6 @@ body {
     text-decoration: none;
     border-bottom: none;
     color: #575756; }
-
-.eventlist-element--is-hidden {
-  position: relative; }
-  .eventlist-element--is-hidden:before {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 2.5rem;
-    right: -1px;
-    border-right: 1px dashed #575756;
-    position: absolute;
-    top: -2.5rem; }
-
-.eventlist-element--is-hidden .eventlist-element__date-day,
-.eventlist-element--is-hidden .eventlist-element__date-day-name {
-  display: none; }
 
 .eventlist-element__link {
   display: -webkit-flex;
@@ -522,8 +506,7 @@ html {
     color: white;
     text-decoration: none;
     text-align: center;
-    overflow: hidden;
-	}
+    overflow: hidden; }
   .page_header .title {
     display: block;
     margin-top: 5%;
@@ -539,23 +522,13 @@ html {
     display: block;
     width: 100%;
     height: 100%;
-    fill: white;
-}
+    fill: white; }
 
 .intro {
-	color: #FFF;
-	text-align: center;
-	margin: 0 auto -12%;
-	max-width: 360px;
-}
-
-.intro a {
-	color: inherit;
-}
-
-.intro a:hover {
-	opacity: .75;
-}
+  max-width: 14em;
+  color: #FFF;
+  text-align: center;
+  margin: 0 auto -12%; }
 
 .page_footer {
   background-color: #e6332a;
@@ -594,5 +567,3 @@ html {
   display: block;
   text-align: center;
   overflow: hidden; }
-
-/*# sourceMappingURL=style.css.map */

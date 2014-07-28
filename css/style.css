@@ -518,17 +518,12 @@ html {
   background: linear-gradient(0deg, white 2px, #e6332a 2px, #e6332a 100%); }
   .page_header .site-title {
     display: block;
-    margin: 0 0 -15%;
+    margin: 0 0 1em;
     color: white;
     text-decoration: none;
     text-align: center;
-    overflow: hidden; }
-    @media screen and (min-width: 29.89474em) {
-      .page_header .site-title {
-        margin: 0 0 -11%; } }
-    @media screen and (min-width: 36.84211em) {
-      .page_header .site-title {
-        margin: 0 0 -9%; } }
+    overflow: hidden;
+	}
   .page_header .title {
     display: block;
     margin-top: 5%;
@@ -544,7 +539,23 @@ html {
     display: block;
     width: 100%;
     height: 100%;
-    fill: white; }
+    fill: white;
+}
+
+.intro {
+	color: #FFF;
+	text-align: center;
+	margin: 0 auto -12%;
+	max-width: 360px;
+}
+
+.intro a {
+	color: inherit;
+}
+
+.intro a:hover {
+	opacity: .75;
+}
 
 .page_footer {
   background-color: #e6332a;

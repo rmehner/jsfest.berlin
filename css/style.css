@@ -518,7 +518,7 @@ html {
   background: linear-gradient(0deg, white 2px, #e6332a 2px, #e6332a 100%); }
   .page_header .site-title {
     display: block;
-    margin: 0 0 1em;
+    margin: 0 0 -15%;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -528,7 +528,7 @@ html {
         margin: 0 0 -11%; } }
     @media screen and (min-width: 36.84211em) {
       .page_header .site-title {
-        margin: 0 0 -9%; } }
+        margin: 0 0 1em; } }
   .page_header .title {
     display: block;
     margin-top: 5%;

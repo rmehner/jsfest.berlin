@@ -20,7 +20,7 @@ html {
   //}
   .site-title {
     display: block;
-    margin: 0 0 1em;
+    margin: 0 0 -15%;
     color: $contrast-color;
     text-decoration: none;
     text-align: center;
@@ -29,7 +29,7 @@ html {
       margin: 0 0 -11%;
     }
     @media screen and (min-width: 36.842105263em) {
-      margin: 0 0 -9%;
+      margin: 0 0 1em;
     }
   }
   .title {

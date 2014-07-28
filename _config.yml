@@ -5,7 +5,7 @@ baseurl: ""
 url: "http://jsfest.berlin"
 exclude:
   - README.md
-
+  - scss
 # Build settings
 markdown: kramdown
 permalink: pretty

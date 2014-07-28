@@ -18,7 +18,11 @@ terminal:
 
 The site should then be available on http://localhost:4000
 
-Create a event
+To compile CSS, run:
+
+* `sass --watch scss/style.scss:css/style.css`
+
+Create an event
 ==============
 
 To create an event you just have to add a new markdown file to the _posts folder:

@@ -1,0 +1,67 @@
+@import "_normalize";
+@import "_vars";
+@import "_mixins";
+@import "_base";
+@import "_list";
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.page_header {
+	position: relative;
+	background: linear-gradient(0deg, $contrast-color 2px, $main-color 2px, $main-color 100%);
+	//@media screen and (min-width: $max-page-width){
+	//	background: linear-gradient(0deg, $contrast-color 11px, $main-color 11px, $main-color 100%);
+	//}
+	.site-title {
+		display: block;
+		margin: 0 0 -15%;
+		color: $contrast-color;
+		text-decoration: none;
+		text-align: center;
+		overflow: hidden;
+		@media screen and (min-width: 29.894736842em) {
+			margin: 0 0 -11%;
+		}
+		@media screen and (min-width: 36.842105263em) {
+			margin: 0 0 -9%;
+		}
+	}
+	.title {
+		display: block;
+		margin-top: 5%;
+		font-size: 2.5em;
+		font-weight: 700;
+		@media screen and (min-width: 21.052631579em) {
+		  font-size: 2.3em;
+		}
+		@media screen and (min-width: 36.842105263em) {
+			font-size: 2.7em;
+		}
+	}
+	.skyline {
+		display: block;
+		width: 100%;
+		height: 100%;
+		fill: $contrast-color;
+	}
+}
+
+.page_footer {
+	background-color: $main-color;
+	color: $contrast-color;
+	.heart {
+		@include hearticon(8px);
+	}
+}
+
+.heart-wrap {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+}

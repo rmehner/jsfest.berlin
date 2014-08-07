@@ -2,8 +2,8 @@
 layout: post
 title:  "Decentralize.js"
 date:   2014-09-09
-venue: "Location: TBA"
-ticket: "RSVP: Available soon"
-time: "2:30pm"
-href: "/"
+venue: "Betahaus Café"
+ticket: "Ticket: RSVP"
+time: "7:00pm"
+href: "http://lanyrd.com/2014/decentralizejs/"
 ---

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "AngularJS Meetup"
+title:  "AngularJS Meetup Workshops"
 date:   2014-09-10
-venue: "Location: TBA"
-ticket: "RSVP: Available soon"
+venue: "Location: bitcrowd office"
+ticket: "RSVP: Register"
 time: "7:30pm"
 href: "http://www.meetup.com/AngularJS-Meetup-Berlin/events/182645922/"
 ---

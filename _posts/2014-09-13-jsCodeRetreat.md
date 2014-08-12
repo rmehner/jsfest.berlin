@@ -2,8 +2,8 @@
 layout: post
 title:  "JS CodeRetreat"
 date:   2014-09-12
-venue: "Looking for location"
-ticket: "Ticket: meetup.com"
+venue: "ThoughtWorks Werkstatt"
+ticket: "Hurry!"
 time: "9:30-17:00"
 href: "http://jscoderetreat.com/"
 ---

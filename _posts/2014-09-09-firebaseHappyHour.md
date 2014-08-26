@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Firebase Hapy Hour"
+title:  "Firebase Happy Hour"
 date:   2014-09-09
 venue: "Betahaus Arena"
 ticket: "RSVP"

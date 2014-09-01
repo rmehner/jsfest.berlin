@@ -5,5 +5,5 @@ date: 2014-09-13
 venue: "5apps Rebel Base"
 ticket: "Ticket: RSVP"
 time: "12pm"
-href: "http://lanyrd.com/2014/remotestorage/"
+href: "http://community.remotestorage.io/t/remotestorage-hack-day-sep-13-berlin-jsfest-edition/200"
 ---

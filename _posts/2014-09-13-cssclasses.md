@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "CSSClasses"
+title:  "CSSclasses"
 date:   2014-09-13
 venue: "Co.up Coworkingspace"
-ticket: "Ticket: RSVP available soon"
+ticket: "RSVP: Please register for free"
 time: "Time: 10am"
 href: "http://cssclasses.cssconf.eu/"
 ---

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "CSSConf EU"
+title:  "CSSconf EU"
 date:   2014-09-12
 venue: "Radialsystem"
-ticket: "Ticket: Sold out"
+ticket: "Ticket: Last minute Ticket available"
 time: "Time: 10am"
 href: "http://2014.cssconf.eu/"
 ---

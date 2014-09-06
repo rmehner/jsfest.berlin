@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jsfest.berlin – Berlin, September 2014</title>
+    <description>jsfest.berlin is a collection of fine events around the web, happening in Berlin in September 2014</description>
+    <link>http://jsfest.berlin/</link>
+    <atom:link href="http://jsfest.berlin/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 06 Sep 2014 20:59:16 +0200</pubDate>
+    <lastBuildDate>Sat, 06 Sep 2014 20:59:16 +0200</lastBuildDate>
+    <generator>Jekyll v2.1.1</generator>
+    
+      <item>
+        <title>PhoneGap Day</title>
+        <description>
+</description>
+        <pubDate>Fri, 26 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/26/PhoneGapDay/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/26/PhoneGapDay/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Node.js Meetup</title>
+        <description>&lt;!-- fill in the URL of your event host page if you haven&#39;t enough information for a detail page, so the event link won&#39;t point on the detail page at all --&gt;
+</description>
+        <pubDate>Tue, 16 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/16/nodejs/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/16/nodejs/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Relax.js</title>
+        <description>
+</description>
+        <pubDate>Mon, 15 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/15/relaxJS/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/15/relaxJS/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>NodeSchool Berlin</title>
+        <description>
+</description>
+        <pubDate>Mon, 15 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/15/nodeschool/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/15/nodeschool/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>HH.js Meetup</title>
+        <description>
+</description>
+        <pubDate>Mon, 15 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/15/HHjs/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/15/HHjs/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>OpenTechSchool JavaScript for Beginners</title>
+        <description>&lt;!-- fill in the URL of your event host page if you haven&#39;t enough information for a detail page, so the event link won&#39;t point on the detail page at all --&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/14/opentechschool/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/14/opentechschool/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>JSConf EU Day 2</title>
+        <description>&lt;!-- fill in the URL of your event host page if you haven&#39;t enough information for a detail page, so the event link won&#39;t point on the detail page at all --&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/14/jsConfEUDayTwo/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/14/jsConfEUDayTwo/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>remoteStorage Hack Day</title>
+        <description>
+</description>
+        <pubDate>Sat, 13 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/13/remotestorage-hack-day/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/13/remotestorage-hack-day/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>JSConf EU Day 1</title>
+        <description>&lt;!-- fill in the URL of your event host page if you haven&#39;t enough information for a detail page, so the event link won&#39;t point on the detail page at all --&gt;
+</description>
+        <pubDate>Sat, 13 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/13/jsConfEU/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/13/jsConfEU/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>CSSclasses</title>
+        <description>&lt;!-- fill in the URL of your event host page if you haven&#39;t enough information for a detail page, so the event link won&#39;t point on the detail page at all --&gt;
+</description>
+        <pubDate>Sat, 13 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://jsfest.berlin/2014/09/13/cssclasses/</link>
+        <guid isPermaLink="true">http://jsfest.berlin/2014/09/13/cssclasses/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

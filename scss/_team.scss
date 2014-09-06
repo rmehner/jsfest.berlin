@@ -1,0 +1,28 @@
+.teamlist {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: justify;
+	&::after{
+		content: '';
+		display: inline-block;
+		width: 100%;
+	}
+	li{
+		display: inline-block;
+		text-align: center;
+	}
+	figure{
+		margin: 0;
+	}
+	figcaption{
+		p{
+			margin: 0;
+		}
+	}
+	img{
+		border: 5px solid #ddd;
+		max-width: 200px;
+		border-radius: 50%;
+	}
+}

@@ -22,7 +22,9 @@
 		display: inline-block;
 		text-align: center;
 		margin-bottom: 1.875rem;
-		width: 210px;
+		@media screen and(min-width: 34.375em) {
+			width: 210px;
+		}
 	}
 	figure {
 		margin: 0;

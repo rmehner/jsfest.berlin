@@ -567,7 +567,8 @@ body {
   .teamlist li {
     display: inline-block;
     text-align: center;
-    margin-bottom: 1.875rem; }
+    margin-bottom: 1.875rem;
+    width: 210px; }
   .teamlist figure {
     margin: 0; }
   .teamlist figcaption p {

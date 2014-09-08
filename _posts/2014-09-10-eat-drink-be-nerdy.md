@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Eat, drink, be nerdy"
-date:   2014-09-09
+date:   2014-09-10
 venue: "La Bonne Franquette"
 ticket: "RSVP"
 time: "Time: 7pm"

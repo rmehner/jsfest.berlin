@@ -373,7 +373,8 @@ body {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  height: 100%; }
   @media screen and (min-width: 21.05263em) {
     body {
       font-size: 1.4em; } }
@@ -389,10 +390,10 @@ body {
 
 .page_header {
   position: relative;
-  background: linear-gradient(0deg, white 2px, #e6332a 2px, #e6332a 100%); }
+  background: linear-gradient(0deg, #fff 2px, #E6332A 2px, #E6332A 100%); }
   .page_header .site-title {
     display: block;
-    color: white;
+    color: #fff;
     text-decoration: none;
     text-align: center;
     overflow: hidden;
@@ -412,7 +413,7 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    fill: white; }
+    fill: #fff; }
 
 .page_footer {
   font-size: .842105263em;
@@ -421,9 +422,9 @@ body {
     .page_footer {
       padding: .6rem 0 .5rem 0; } }
   .page_footer a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    border-bottom: 1px dashed white; }
+    border-bottom: 1px dashed #fff; }
 
 .page_content {
   -webkit-box-flex: 1;
@@ -436,7 +437,7 @@ body {
     .page_content {
       padding: 3rem 0; } }
   .page_content a {
-    color: #e6332a;
+    color: #E6332A;
     border-bottom: 1px dashed currentColor;
     text-decoration: none; }
 
@@ -448,7 +449,7 @@ body {
   margin-bottom: 1.5rem;
   list-style: none; }
   .eventlist-element:hover .eventlist-element__bullets, .eventlist-element:hover .eventlist-element__bullets:before, .eventlist-element:hover .eventlist-element__bullets:after {
-    background-color: #e6332a; }
+    background-color: #E6332A; }
   @media screen and (min-width: 21.05263em) {
     .eventlist-element {
       margin-bottom: 2rem; } }
@@ -504,7 +505,7 @@ body {
   display: block;
   font-size: 1.4em;
   margin-bottom: .3rem;
-  color: #e6332a; }
+  color: #E6332A; }
 
 .eventlist-element__venue,
 .eventlist-element__time {
@@ -609,8 +610,8 @@ html {
   box-sizing: inherit; }
 
 .page_footer {
-  background-color: #e6332a;
-  color: white; }
+  background-color: #E6332A;
+  color: #fff; }
   .page_footer .heart {
     position: relative;
     display: inline-block;
@@ -662,3 +663,5 @@ html {
     .intro {
       margin: 0 auto 3rem;
       max-width: 17.777777778em; } }
+
+/*# sourceMappingURL=style.css.map */
